@@ -6,7 +6,7 @@ jQuery( document ).ready(function($){
 
     $( '.popup-overlay, .popup-close' ).click(function() {
       $( popup ).removeClass( 'active' );
-        $( document.body ).removeClass( 'popup-opened' );
+      $( document.body ).removeClass( 'popup-opened' );
     });
 
     function openPopup(selector) {
