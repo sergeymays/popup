@@ -87,7 +87,7 @@ body.popup-opened {
     background-color: darkgrey;
     outline: 1px solid slategrey;
 }
-.popup-content:before, .popup-content:after {
+.popup-window-inner:before, .popup-window-inner:after {
     content: "";
     display: block;
     position: absolute;
@@ -95,12 +95,12 @@ body.popup-opened {
     left: 0;
     z-index: 11;
 }
-.popup-content:before {
+.popup-window-inner:before {
     height: 50px;
     top: 0;
     background: linear-gradient(to bottom, #fff, transparent);
 }
-.popup-content:after {
+.popup-window-inner:after {
     height: 30px;
     bottom: 0;
     background: linear-gradient(to top, #fff, transparent);
